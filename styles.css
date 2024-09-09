@@ -1,0 +1,108 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #f7f9fc;
+    color: #333;
+    scroll-behavior: smooth;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    background-color: #1a1a2e;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    font-size: 28px;
+    color: #ffcc29;
+    letter-spacing: 1.2px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+header ul li {
+    margin-left: 25px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+header ul li a:hover {
+    color: #ffcc29;
+}
+
+.cta {
+    background-color: #ffcc29;
+    padding: 10px 20px;
+    color: #1a1a2e;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta:hover {
+    background-color: #ffa500;
+    transform: translateY(-5px);
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+    background: linear-gradient(to right, #1a1a2e, #16213e); /* Dark navy gradient */
+    color: white;
+}
+
+.hero h2 {
+    font-size: 52px;
+    margin-bottom: 20px;
+    color: #ffffff;  /* Set to pure white for maximum contrast */
+    font-weight: 700; /* Bold the text for emphasis */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Optional: subtle shadow to help with contrast */
+}
+
+.hero p {
+    font-size: 22px;
+    margin-bottom: 30px;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #d9d9d9;
+}
+
+.hero a {
+    background-color: #ffcc29; /* Yellow */
+    color: #1a1a2e;  /* Dark navy */
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.hero a:hover {
+    background-color: #ffa500;  /*
